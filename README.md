@@ -8,7 +8,7 @@
 
 ## Github Repository
 
-https://github.com/sphcastillo/girl_in_red_artistprofile
+https://github.com/sphcastillo/girl_in_red_
 
 ## Deployed Site
 

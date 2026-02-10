@@ -23,12 +23,12 @@ export default function WorldInRed() {
             <Image
               src={logo}
               alt="Logo"
-              className="h-20 w-20 object-contain"
+              className="xxs450:h-20 xxs450:w-20 xs530:h-20 xs530:w-20 object-contain"
               priority
             />
           </div>
         </div>
-        <div className="mx-auto">
+        <div className="pt-6 xs530:pt-0 mx-auto">
 
           {/* Mobile / <= 884px */}
           <div className="mx-auto max-w-[530px] [@media(min-width:885px)]:hidden">
@@ -49,8 +49,8 @@ export default function WorldInRed() {
                   priority
                 />
                 <div className="absolute inset-0 flex items-center justify-center pl-[30.8%]">
-                  <Link href="https://girlinred.lnk.to/Hemingway" className="pointer-events-auto cursor-pointer">
-                    <span className="inline-flex h-[39px] w-[142px] text-[13px] items-center justify-center uppercase truncate text-center  font-semibold tracking-[0.16em] text-[#400000] drop-shadow-[0_1px_6px_rgba(0,0,0,0.25)]">
+                  <Link target="_blank" href="https://girlinred.lnk.to/Hemingway" className="pointer-events-auto cursor-pointer">
+                    <span className="inline-flex h-[39px] w-[142px] text-[10px] xxs412:text-xs xs530:text-[13px] items-center justify-center uppercase truncate text-center  font-semibold tracking-[0.16em] text-[#400000] drop-shadow-[0_1px_6px_rgba(0,0,0,0.25)]">
                       Hemingway
                     </span>
                   </Link>
@@ -59,7 +59,7 @@ export default function WorldInRed() {
 
 
               {/* Binder / I'm Doing It Again, Baby! */}
-              <div className="pointer-events-none absolute left-[25.5%] top-[31.9%] z-10 h-[61px] w-[253px] -translate-x-1/2">
+              <div className="pointer-events-none absolute left-[25.5%] top-[30.3%] xxs375:top-[30.6%] xxs450:top-[30.8%]  xs530:top-[31.9%] -translate-x-1/2 w-[47.74%] ">
                 <Image
                   src={binder}
                   alt="Binder ~ I'm Doing It Again, Baby!"
@@ -69,16 +69,18 @@ export default function WorldInRed() {
                   priority
                 />
                 <div className="absolute inset-0 flex items-center justify-center pl-[78px]">
-                  <span className="flex h-[39px] w-[142px] items-center justify-center overflow-hidden px-1 text-center text-[13px] text-pretty font-semibold uppercase text-[#ddd4c6] drop-shadow-[0_1px_6px_rgba(0,0,0,0.35)]">
-                    I'm Doing It
+                  <Link href='https://girlinred.lnk.to/IDIAB' target="_blank" className="pointer-events-auto cursor-pointer">
+                  <span className="flex h-[39px] w-[142px] items-center justify-center overflow-hidden px-1 text-center text-[10px] xxs412:text-xs xs530:text-[13px] text-pretty font-semibold uppercase text-[#ddd4c6] drop-shadow-[0_1px_6px_rgba(0,0,0,0.35)]">
+                    I&apos;m Doing It
                     <br />
                     Again, Baby!
                   </span>
+                  </Link>
                 </div>
               </div>
 
               {/* Binder / Videos */}
-              <div className="pointer-events-none absolute left-[25.5%] top-[38.3%] z-10 h-[61px] w-[253px] -translate-x-1/2">
+              <div className="hidden pointer-events-none absolute left-[25.5%] top-[38.3%] z-10 h-[61px] w-[253px] -translate-x-1/2">
                 <Image
                   src={binder}
                   alt="Binder ~ Videos"
@@ -96,7 +98,7 @@ export default function WorldInRed() {
 
 
               {/* Binder / if i could make it go quiet */}
-              <div className="pointer-events-none absolute left-[25.5%] top-[47.6%] z-10 h-[61px] w-[253px] -translate-x-1/2">
+              <div className="hidden pointer-events-none absolute left-[25.5%] top-[47.6%] z-10 h-[61px] w-[253px] -translate-x-1/2">
                 <Image
                   src={binder}
                   alt="Binder ~ if i could make it go quiet"
@@ -115,7 +117,7 @@ export default function WorldInRed() {
               </div>
 
               {/* Binder / Listen */}
-              <div className="pointer-events-none absolute left-[25.3%] top-[54.1%] z-10 h-[61px] w-[253px] -translate-x-1/2">
+              <div className="hidden pointer-events-none absolute left-[25.3%] top-[54.1%] z-10 h-[61px] w-[253px] -translate-x-1/2">
                 <Image
                   src={binder}
                   alt="Binder ~ Listen"
@@ -133,7 +135,7 @@ export default function WorldInRed() {
 
 
               {/* Binder / Store */}
-              <div className="pointer-events-none absolute left-[25.5%] top-[76.6%] z-10 h-[61px] w-[253px] -translate-x-1/2">
+              <div className="hidden pointer-events-none absolute left-[25.5%] top-[76.6%] z-10 h-[61px] w-[253px] -translate-x-1/2">
                 <Image
                   src={binder}
                   alt="Binder ~ Store"
@@ -150,7 +152,7 @@ export default function WorldInRed() {
               </div>
 
               {/* Binder / Tour */}
-              <div className="pointer-events-none absolute left-[75.3%] top-[25.1%]  z-10 h-[61px] w-[253px] -translate-x-1/2">
+              <div className="hidden pointer-events-none absolute left-[75.3%] top-[25.1%]  z-10 h-[61px] w-[253px] -translate-x-1/2">
                 <Image
                   src={binder}
                   alt="Binder ~ Tour"
@@ -167,7 +169,7 @@ export default function WorldInRed() {
               </div>
 
               {/* Binder / Newsletter */}
-              <div className="pointer-events-none absolute left-[75.3%] top-[31.5%] z-10 h-[61px] w-[253px] -translate-x-1/2">
+              <div className="hidden pointer-events-none absolute left-[75.3%] top-[31.5%] z-10 h-[61px] w-[253px] -translate-x-1/2">
                 <Image
                   src={binder}
                   alt="Binder ~ Newsletter"
@@ -184,7 +186,7 @@ export default function WorldInRed() {
               </div>
 
               {/* Binder / Socials */}
-              <div className="pointer-events-none absolute left-[74.5%] top-[54.3%] z-10 h-[61px] w-[253px] -translate-x-1/2">
+              <div className="hidden pointer-events-none absolute left-[74.5%] top-[54.3%] z-10 h-[61px] w-[253px] -translate-x-1/2">
                 <Image
                   src={binder}
                   alt="Binder ~ Socials"
@@ -201,7 +203,7 @@ export default function WorldInRed() {
               </div>
 
               {/* Binder / Discord */}
-              <div className="pointer-events-none absolute left-[74.5%] top-[60.8%] z-10 h-[61px] w-[253px] -translate-x-1/2">
+              <div className="hidden pointer-events-none absolute left-[74.5%] top-[60.8%] z-10 h-[61px] w-[253px] -translate-x-1/2">
                 <Image
                   src={binder}
                   alt="Binder ~ Discord"
@@ -218,7 +220,7 @@ export default function WorldInRed() {
               </div>
 
               {/* Binder / Medallion */}
-              <div className="pointer-events-none absolute left-[74.5%] top-[67.4%] z-10 h-[61px] w-[253px] -translate-x-1/2">
+              <div className="hidden pointer-events-none absolute left-[74.5%] top-[67.4%] z-10 h-[61px] w-[253px] -translate-x-1/2">
                 <Image
                   src={binder}
                   alt="Binder ~ Medallion"
